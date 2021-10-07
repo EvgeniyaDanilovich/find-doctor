@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Main</title>
+	<script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="header">
+				<div class="container">
+					<div class="header__row">
+						<div class="header__column header-logo">
+							<a href="index.html" class="header__logo">Find doctor</a>
+						</div>
+
+						<div class="header__column header-menu">
+							<div class="header-menu__icon">
+								<span></span>
+							</div>
+
+							<nav class="header-menu__menu">
+								<ul class="header-menu__list">
+									<li><a href="products.html" class="header-menu__link">products</a></li>
+									<li><a href="#" class="header-menu__link">about Us</a></li>
+									<li><a href="#message" class="header-menu__link">Ask Us</a></li>
+									<li><a href="login.html" class="header-menu__link header-menu__link-4">Sign in</a></li>
+									<li><a href="registration.html" class="header-menu__link header-menu__link-login">Sign up</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<div class="mainblock">
+			<div class="mainblock__body">
+				<div class="container">
+					<div class="mainblock__title">Doctor Search Service</div>
+					<div class="mainblock__subtitle">We keep the latest information about doctors from all over
+						USA.
+						We provide a search for this data.</div>
+					<div class="mainblock__text">Find a doctor in the USA</div>
+					<div class="mainblock__form form-poisk">
+						<form class="form-poisk__container" action="ссылка" method="GET">
+							<input id="poisk" type="search" name="poisk" placeholder="Search" />
+
+							<button class="form-poisk__button" type="submit"><img src="img/search--v1.png" alt=""></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="mainblock__bg-image"></div>
+		</div>
+
+
+		<div class="content">
+
+			<div class="exampletable">
+				<div class="container">
+					<div class="exampletable__content">
+						<div class="exampletable__title title">doctor lookup table example</div>
+						<div class="exampletable__img"><img src="img/table2.jpg" alt=""></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="benefits">
+				<div class="container">
+					<div class="benefits__body">
+						<div class="benefits__title title">service benefits</div>
+						<div class="benefits__row">
+							<div class="benefits__column">
+								<div class="benefits__border">
+									<div class="benefits__text">Exactly Service</div>
+									<div class="benefits__subtext">We provide a convenient search for the data you need. You will
+										use the search on our website. No Excel or other programs.</div>
+								</div>
+							</div>
+							<div class="benefits__column">
+								<div class="benefits__border">
+									<div class="benefits__text">Fresh Data</div>
+									<div class="benefits__subtext">We update the database every month.</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="emailarea">
+				<div class="container">
+					<div class="emailarea__body">
+
+						<h1 class="title">Get in touch with us</h1>
+						<div class="emailarea__content">
+
+							<div class="emailarea__column">
+								<form class="emailarea__form form-emailarea" id="form" action="#" method="GET"
+									enctype="multipart/form-data">
+
+									<div class="form-emailarea__body">
+										<div class="form-emailarea__box">
+											<label for="first_name">Your Name*</label>
+											<input id="first_name" class="form-emailarea__field" type="text" name="name_pochta"
+												value="" required>
+										</div>
+										<div class="form-emailarea__box">
+											<label for="lemaill">Email*</label>
+											<input id="lemaill" class="form-emailarea__field" type="email" name="email_pochta"
+												value="" required>
+										</div>
+										<div class="form-emailarea__box">
+											<label for="message">Message*</label>
+											<textarea id="message" class="form-emailarea__textarea" name="message"></textarea>
+										</div>
+										<div><button class="form-emailarea__button btn" type="submit">Send</button></div>
+									</div>
+
+								</form>
+							</div>
+
+							<div class="emailarea__column">
+								<div class="emailarea__info info-emailarea">
+
+									<div class="info-emailarea__text">Have an idea for a project? Just looking to
+										explore and see the possibilities? </br> I'm here to help.</div>
+									<div class="info-emailarea__subtitle">Xparser</div>
+									<div class="info-emailarea__email">e-mail: <a href="mailto:exparser@gmail.com">
+											finddoctor@gmail.com</a></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<div class="footer__content">
+						<div class="footer__flex">
+							<a href="/about-us" class="footer__item">About us</a>
+							<a href="" class="footer__item">Politics</a>
+							<a href="" class="footer__item">Contact</a>
+						</div>
+						<div class="footer__infa">© 2021. All Rights Reserved</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Registration</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<header>
+			<div class="header">
+				<div class="container">
+					<div class="header__row">
+						<div class="header__column header-logo">
+							<a href="index.html" class="header__logo">Find doctor</a>
+						</div>
+
+						<div class="header__column header-menu">
+							<div class="header-menu__icon">
+								<span></span>
+							</div>
+
+							<nav class="header-menu__menu">
+								<ul class="header-menu__list">
+									<li><a href="products.html" class="header-menu__link">products</a></li>
+									<li><a href="#" class="header-menu__link">about Us</a></li>
+									<li><a href="#message" class="header-menu__link">Ask Us</a></li>
+									<li><a href="login.html" class="header-menu__link header-menu__link-4">Sign in</a></li>
+									<li><a href="registration.html" class="header-menu__link header-menu__link-login">Sign up</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="registration">
+			<div class="container">
+				<div class="registration__body">
+
+					<div class="registration__column">
+
+						<form class="registration__form" action="#" method="POST" enctype="multipart/form-data">
+							<h1>Sign up</h1>
+
+							<div class="registration__box">
+								<label for="first_name">First Name*</label>
+								<input id="first_name" class="registration__field" type="text" name="first_name" value=""
+									required>
+							</div>
+
+							<div class="registration__box">
+								<label for="last_name">Last Name*</label>
+								<input id="last_name" class="registration__field" type="text" name="last_name" value=""
+									required>
+							</div>
+
+							<div class="registration__box">
+								<label for="password_1">Password*</label>
+								<input id="password_1" class="registration__field" type="password" name="password_1" value=""
+									required>
+							</div>
+
+							<div class="registration__box">
+								<label for="password_2">Confirm Password*</label>
+								<input id="password_2" class="registration__field" type="password" name="password_2" value=""
+									required>
+							</div>
+
+							<div class="registration__box">
+								<label for="email">Email*</label>
+								<input id="email" class="registration__field" type="email" name="email" value="" required>
+							</div>
+
+							<div class="registration__box">
+								<label for="country">Country*</label>
+								<input id="country" class="registration__field" type="text" name="country" value="" required>
+							</div>
+
+							<div class="registration__box">
+								<label for="city">City*</label>
+								<input id="city" class="registration__field" type="text" name="city" value="" required>
+							</div>
+
+							<div class="registration__box">
+								<label for="business">Business</label>
+								<textarea id="business" class="registration__textarea" name="business"
+									placeholder="Enter your busines for us. Please"></textarea>
+							</div>
+
+							<div><button class="registration__button btn" type="submit">Create an account</button></div>
+
+							<div class="registration__signin">Already have an account? <a href="login.html">Sign in</a> </div>
+
+
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
